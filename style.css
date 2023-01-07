@@ -1,3 +1,35 @@
 html, body, ul{
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+
+.container {
+    height: 100vh;
+    position: relative;
+}
+
+.sidebar{
+    width: 410px;
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.toolbar-container{
+    height: 60px;
+    width: 100%;
+    background-color: #EEE;
+}
+
+.user-photo{
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    background-color: #CCC;
 }
